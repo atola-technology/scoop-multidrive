@@ -16,7 +16,7 @@
   "shortcuts": [["MultiDrive.exe", "MultiDrive"]],
   "checkver": {
     "url": "https://multidrive.io/changelog",
-    "regex": "Version ([\\d.]+)"
+    "regex": "(?i)Version(?:\\s*<!--.*?-->\\s*)?\\s*([\\d.]+)"
   },
   "autoupdate": {
     "architecture": {
