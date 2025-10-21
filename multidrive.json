@@ -12,7 +12,7 @@
   "installer": {
     "args": ["/s", "/D=$dir"]
   },
-  "bin": ["MultiDrive.exe", ["mdcli", "mdcli.exe"]],
+  "bin": ["MultiDrive.exe", "mdcli.exe"],
   "shortcuts": [["MultiDrive.exe", "MultiDrive"]],
   "checkver": {
     "url": "https://multidrive.io/changelog",
